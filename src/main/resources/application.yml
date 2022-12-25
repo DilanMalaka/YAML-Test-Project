@@ -1,0 +1,7 @@
+server:
+    port: 8683
+spring:
+    data:
+        mongodb:
+            auto-index-creation: true
+            uri: mongodb://localhost:27017/yamldb
